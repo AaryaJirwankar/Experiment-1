@@ -11,6 +11,54 @@ C++ is programming language that is procedural, object-oriented, and generic in 
 C++ introduces the concept of classes, which encapsulate data and functions which brings about object-oriented programming. Objects are instances of classes, allowing data abstraction and inheritance. Operator overloading and templates enhance functionality, enabling code flexibility.
 Standard libraries in C++ are crucial because they contain needed functions and data structures, which include vectors, lists and strings. These comprise bold container classes and algorithms in Standard Template Library (STL). There is a solid error management provided by exception handling.
 
+## Code
+~~~
+// Aarya Jirwankar
+//23070123161
+//Experiment 1
+
+#include <iostream>
+using namespace std;
+
+int main() {
+    cout << "Hello world" << endl;
+
+    int a, b;
+    cout << "Enter the value of the first number: ";
+    cin >> a;
+
+    cout << "Enter the value of the second number: ";
+    cin >> b;
+
+    int sum = a + b;
+    cout << "The sum of the two numbers is: " << sum << endl;
+    
+    int avg = (a + b) / 2;
+    cout << "The average of the two numbers is: " << avg << endl;
+
+    int c;
+    cout << "Enter a number: ";
+    cin >> c;
+
+    if (c % 2 == 0) {
+        cout << "The number is even." << endl;
+    } else {
+        cout << "The number is odd." << endl;
+    }
+
+    int d;
+    cout << "Enter the year you want to check whether it is a leap year or not: ";
+    cin >> d;
+
+    if ((d % 400 == 0) || (d % 100 != 0 && d % 4 == 0)) {
+        cout << "The year entered is a leap year." << endl;
+    } else {
+        cout << "The year entered is not a leap year." << endl;
+    }
+
+    return 0;
+}
+~~~
 ## C++ has the following data types: -
 Character (ch)
 Integer (int)
